@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 1em;
+}
+
+button {
+  min-width: 5em;
+  min-height: 3em;
+  cursor: pointer;
+  border: 0.5px solid #525151;
+}
+
+input[type='text'] {
+  border: unset;
+  color: #fff;
+  text-align: end;
+  width: 90%;
+  margin-right: 0.5em;
+  background-color: inherit;
+  font-size: larger;
+}
+
+input[type='text']:active,
+input[type='text']:focus {
+  border: unset;
+}
+
+.input-section {
+  padding: 0.5em 0;
+  background-color: #868686;
+  height: 2em;
+  display: flex;
+  justify-content: end;
+}
+
+.w-2 {
+  width: 10em;
+}
+
+.row,
+.button-section {
+  display: flex;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.gray {
+  background-color: #d8d8d8;
+}
+
+.orange {
+  background-color: #fc7334;
+}
+
+.button-section,
+.input-section {
+  max-width: 16.7em;
+}
