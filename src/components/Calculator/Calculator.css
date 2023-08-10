@@ -37,7 +37,10 @@ input[type='text']:focus {
   width: 10em;
 }
 
-.row,
+.calculator h2 {
+  text-align: center;
+}
+
 .button-section {
   display: flex;
   gap: 0;

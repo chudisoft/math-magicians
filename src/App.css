@@ -1,3 +1,10 @@
 .app {
   margin: unset;
 }
+
+.row {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
