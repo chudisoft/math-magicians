@@ -38,7 +38,8 @@ const Calculator = () => {
   ];
 
   return (
-    <div>
+    <div className="calculator">
+      <h2>Calculator</h2>
       <div className="input-section">
         <input
           type="text"

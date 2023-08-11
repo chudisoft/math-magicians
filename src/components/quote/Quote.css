@@ -1,0 +1,18 @@
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 1em;
+  max-width: 16.7em;
+  border: solid 2px #bbb8b8;
+}
+
+.quote-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.quote-section p {
+  font-size: 18px;
+  margin: 0;
+}
