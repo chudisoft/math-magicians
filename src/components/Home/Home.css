@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 1em;
+}
+
+p {
+  text-align: justify;
+  padding: 1em;
+}
+
+.t-orange {
+  background-color: #d8d8d8;
+  color: #216ba7;
+}
+
+.orange {
+  color: #504f4f;
+  background-color: #f7f30b;
+}
+
+.button-section,
+.input-section {
+  max-width: 16.7em;
+}

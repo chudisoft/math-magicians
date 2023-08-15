@@ -8,3 +8,11 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.container {
+  padding: 0 10%;
+}
+
+.col-md-12 {
+  width: 100%;
+}
