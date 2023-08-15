@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import GlobalNav from './GlobalNav';
 
 test('renders learn react link', () => {
-  render(<App />);
+  render(<GlobalNav />);
   const linkElement = screen.getByText(/Math Magicians/i);
   expect(linkElement).toBeInTheDocument();
 });
