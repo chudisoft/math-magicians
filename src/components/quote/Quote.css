@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 0 1em;
-  max-width: 16.7em;
+  padding: 1em;
+  max-width: 35em;
+  margin-top: 2em;
   border: solid 2px #bbb8b8;
 }
 

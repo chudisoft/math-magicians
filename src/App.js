@@ -1,13 +1,13 @@
+import { Outlet } from 'react-router-dom';
 import './App.css';
-import Calculator from './components/Calculator/Calculator';
-import Quote from './components/quote/Quote';
+import GlobalNav from './components/GlobalNav/GlobalNav';
 
 function App() {
   return (
     <div className="App">
       <div className="row">
-        <Quote />
-        <Calculator />
+        <GlobalNav />
+        <Outlet />
       </div>
     </div>
   );
