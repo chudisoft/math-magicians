@@ -1,3 +1,9 @@
+body {
+  background-image: url('/public/francesco.jpg');
+  background-size: cover;
+  min-height: 85vh;
+}
+
 .app {
   margin: unset;
 }

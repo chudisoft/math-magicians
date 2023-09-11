@@ -2,7 +2,7 @@ import React from 'react';
 import './GlobalNav.css';
 
 const GlobalNav = () => (
-  <nav className="container">
+  <nav>
     <h2>Math Magicians</h2>
     <ul>
       <li><a href="/Home">Home</a></li>

@@ -1,21 +1,29 @@
 body {
   margin: 0;
-  padding: 1em;
 }
 
 p {
   text-align: justify;
   padding: 1em;
+  border-radius: 5px;
 }
 
 .t-orange {
-  background-color: #d8d8d8;
+  background-color: #ebebeb;
+  padding: 3em 1em;
   color: #216ba7;
+  border: #216ba7 4px solid;
+  border-bottom: #216ba7 10px solid;
+  border-left: #1971b9 8px solid;
 }
 
-.orange {
-  color: #504f4f;
-  background-color: #f7f30b;
+.p-orange {
+  color: #fff;
+  padding: 3em 1em;
+  background-color: #09313d;
+  border: #216ba7 4px solid;
+  border-bottom: #216ba7 10px solid;
+  border-left: #1971b9 8px solid;
 }
 
 .button-section,

@@ -4,8 +4,11 @@
   text-align: center;
   padding: 1em;
   max-width: 35em;
-  margin-top: 2em;
+  margin: 1em 2em;
+  background-color: #fbfbfb;
   border: solid 2px #bbb8b8;
+  box-shadow: 0 3px 2px 1px #ff8c06;
+  border-radius: 10px;
 }
 
 .quote-section h2 {
@@ -16,4 +19,8 @@
 .quote-section p {
   font-size: 18px;
   margin: 0;
+}
+
+.f-e {
+  text-align: right;
 }

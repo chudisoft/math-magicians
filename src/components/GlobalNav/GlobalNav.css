@@ -4,6 +4,10 @@ nav {
   gap: 1em;
   width: 100%;
   justify-content: space-between;
+  padding: 0.5em 1em;
+  background-color: black;
+  color: white;
+  box-shadow: 0 3px 2px 1px #ff8c06;
 }
 
 nav ul {
@@ -17,4 +21,8 @@ nav ul {
 
 nav h2 {
   margin: unset;
+}
+
+nav a {
+  color: #fefefe;
 }

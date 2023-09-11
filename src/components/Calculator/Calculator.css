@@ -5,6 +5,10 @@ button {
   border: 0.5px solid #525151;
 }
 
+button:hover {
+  background-color: #eeeded;
+}
+
 input[type='text'] {
   border: unset;
   color: #fff;
@@ -22,10 +26,15 @@ input[type='text']:focus {
 
 .input-section {
   padding: 0.5em 0;
-  background-color: #868686;
+  background-color: #1b1b1b;
   height: 2em;
   display: flex;
   justify-content: end;
+}
+
+.calculator {
+  border-radius: 5px;
+  border: solid 5px #fda805;
 }
 
 .row {
@@ -47,11 +56,13 @@ h2 {
 }
 
 .gray {
-  background-color: #d8d8d8;
+  background-color: #e2e2e2;
+  border-bottom-right-radius: 5px;
 }
 
 .orange {
-  background-color: #fc7334;
+  background-color: #000;
+  color: #fff;
 }
 
 .button-section,

@@ -13,7 +13,7 @@ const Home = () => (
       pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
       qui officia deserunt mollit anim id est laborum.&quot;
     </p>
-    <p className="orange">
+    <p className="p-orange">
       &quot;Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
       consectetur, adipisci velit, sed quia non numquam eius modi
       tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.&quot;

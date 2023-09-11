@@ -20,7 +20,7 @@ const Quote = () => {
       .then((response) => response.json())
       .then((data) => {
         if (data.length > 0) {
-          setQuote(data[0].quote);
+          setQuote(data[0]);
           setLoading(false);
         } else {
           setError('No quotes found for the specified category.');
@@ -38,7 +38,15 @@ const Quote = () => {
       <h2>Quote of the Day</h2>
       {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
-      {!loading && !error && <p>{quote}</p>}
+      {
+        !loading && !error
+        && (
+          <>
+            <p>{quote.quote}</p>
+            <p className="f-e">{`By: ${quote.author}`}</p>
+          </>
+        )
+      }
     </div>
   );
 };
