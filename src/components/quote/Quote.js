@@ -35,7 +35,7 @@ const Quote = () => {
 
   return (
     <div className="quote-section">
-      <h2>Quote of the Day</h2>
+      <h2 className="bg-light">Quote of the Day</h2>
       {loading && <p>Loading...</p>}
       {error && <p>{error}</p>}
       {

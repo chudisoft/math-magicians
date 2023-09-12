@@ -39,38 +39,36 @@ const Calculator = () => {
 
   return (
     <div className="container col-md-12">
-      <h2>Calculator</h2>
-      <div className="row between">
-        <div className="col-md-6">
-          <p>
-            Let&apos;s do some maths
-          </p>
-        </div>
-        <div>
-          <div className="calculator">
-            <div className="input-section">
-              <input
-                type="text"
-                defaultValue={0}
-                id="txtInput"
-                disabled
-                value={calculatorData.next || calculatorData.total || '0'}
-              />
-            </div>
-            <div className="button-section">
-              {
-                buttons.map(
-                  (b) => (
-                    <CalculatorButton
-                      key={b.text}
-                      text={b.text}
-                      className={b.className}
-                      click={b.click}
-                    />
-                  ),
-                )
-              }
-            </div>
+      <div className="bg-light">
+        <h2>Calculator</h2>
+        <p className="p-0">
+          Let&apos;s do some maths
+        </p>
+      </div>
+      <div className="row center">
+        <div className="calculator">
+          <div className="input-section">
+            <input
+              type="text"
+              defaultValue={0}
+              id="txtInput"
+              disabled
+              value={calculatorData.next || calculatorData.total || '0'}
+            />
+          </div>
+          <div className="button-section">
+            {
+              buttons.map(
+                (b) => (
+                  <CalculatorButton
+                    key={b.text}
+                    text={b.text}
+                    className={b.className}
+                    click={b.click}
+                  />
+                ),
+              )
+            }
           </div>
         </div>
       </div>
