@@ -3,7 +3,7 @@
   flex-direction: column;
   text-align: center;
   padding: 1em;
-  max-width: 35em;
+  max-width: 100%;
   min-width: 25em;
   margin: 1em 2em;
   background-color: #fbfbfb;
@@ -24,4 +24,13 @@
 
 .f-e {
   text-align: right;
+}
+
+
+/* Put all mobile code above this. */
+@media only screen and (min-width: 768px) {
+  .quote-section {
+    max-width: 35em;
+  }
+  
 }
